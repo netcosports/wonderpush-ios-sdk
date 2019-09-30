@@ -154,6 +154,10 @@ NSCharacterSet *PercentEncodedAllowedCharacterSet = nil;
     return deviceId;
 }
 
++ (NSString *)federatedId
+{
+    return nil;
+}
 
 #pragma mark - URL Checking
 
