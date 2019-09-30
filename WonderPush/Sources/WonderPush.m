@@ -1372,10 +1372,7 @@ static UIStoryboard *storyboard = nil;
 
 + (CLLocation *)location
 {
-    if (_locationOverridden) {
-        return _locationOverride;
-    }
-    return [wonderPushAPI location];
+    return nil;
 }
 
 + (void) enableGeolocation
